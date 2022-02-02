@@ -1,7 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": "tsconfig.json"
+    "project": "./tsconfig.json"
   },
   "env": {
     "es6": true
@@ -11,6 +11,7 @@
     "functional"
   ],
   "extends": [
+    "standard-with-typescript",
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
