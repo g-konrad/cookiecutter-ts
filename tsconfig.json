@@ -15,13 +15,13 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
-    "stripInternal": true
+    "stripInternal": true,
+    "types": ["node", "jest"]
   },
   "include": [
-    "./src/*", 
-    "./test/*", 
-    "./scripts/*", 
-    "./bench/*"
+    "src", 
+    "scripts", 
+    "bench"
   ],
   "exclude": []
 }

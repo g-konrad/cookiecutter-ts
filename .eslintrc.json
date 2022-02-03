@@ -19,5 +19,18 @@
     "plugin:functional/external-recommended",
     "plugin:functional/recommended",
     "plugin:functional/stylistic"
+  ],
+  "rules": {
+    "@typescript-eslint/func-call-spacing": ["error", "always"]
+  },
+  "overrides": [
+    {
+      "files": "*.spec*.ts",
+      "rules": {
+        "functional/no-expression-statement": "off",
+        "functional/functional-parameters": "off",
+        "functional/no-return-void": "off"
+      }
+    }
   ]
 }
