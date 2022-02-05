@@ -1,8 +1,8 @@
 {
-  "name": "otp-ts",
+  "name": "{{ cookiecutter.project_slug }}",
   "version": "0.1.0",
-  "description": "Emulating Erlang's OTP on TypeScript",
-  "author": "Gustavo Konrad <g.konrad@outlook.com>",
+  "description": "{{ cookiecutter.project_description }}",
+  "author": "{{ cookiecutter.author }} <{{ cookiecutter.author_email }}>",
   "license": "MIT",
   "module": "index.js",
   "typings": "index.d.ts",
@@ -10,13 +10,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "ts-docs src/index.ts"
   },
-  "keywords": [
-    "otp",
-    "elixir",
-    "erlang",
-    "actor-model",
-    "actors"
-  ],
   "devDependencies": {
     "@ts-docs/default-docs-structure": "^0.2.5",
     "@ts-docs/ts-docs": "^0.2.5",

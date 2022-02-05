@@ -1,0 +1,9 @@
+  
+{
+    "project_name": "TypeScript Project",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}-ts",
+    "project_description": "Project {{ cookiecutter.project_name }}",
+    "version": "0.1.0",
+    "author": "Author",
+    "author_email": "author@email.com"
+}
